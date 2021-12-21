@@ -3,7 +3,6 @@
     "css",
     "scss",
     "markdown",
-    "graphql",
     "html",
     "xml",
     "yaml",
@@ -12,25 +11,12 @@
     "javascript",
     "typescript",
     "typescriptreact",
-    "javascriptreact",
-    "typescript.tsx"
+    "javascriptreact"
   ],
-  
-  "python.venvPath": "~/venvs/",
-  "python.jediPath": "~/.local/anyenv/envs/pyenv/versions/3.8.9/envs/neovim/lib/python3.8/site-packages/jedi",
-  "python.jediEnabled": true,
-  "suggest.timeout": 5000,
+
   "python.formatting.provider": "black",
   "python.formatting.blackPath": "~/.local/bin/black",
-  "python.linting.pylintEnabled": true,
-  "python.linting.flake8Enabled": false,
-  "python.linting.pylintPath": "~/.local/bin/pylint"
-
-//  "explorer.width": 30,
-//  "explorer.icon.enableNerdfont": true,
-//  "explorer.previewAction.onHover": false,
-//  "explorer.keyMappings.global": {
-//    "<cr>": ["expandable?", "expand", "open"],
-//    "v": "open:vsplit"
-//  } 
+  "python.linting.pylintEnabled": true
+  // "python.pythonPath": "python"
+  // "python.venvPath": "~/.local/anyenv/envs/pyenv/versions",
 }

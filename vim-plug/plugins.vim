@@ -33,7 +33,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mfussenegger/nvim-dap-python'
     Plug 'theHamsta/nvim-dap-virtual-text'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-    Plug 'dense-analysis/ale'
     Plug 'kyazdani42/nvim-web-devicons' " Recommended (for coloured icons)
     Plug 'akinsho/nvim-bufferline.lua'
     Plug 'hoob3rt/lualine.nvim', {'commit': '82f68c42df9d11e52edb52c86113d0eba5be798d'}

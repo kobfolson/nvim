@@ -11,5 +11,5 @@ then
   echo '{"dependencies":{}}'> package.json
 fi
 # Change extension names to the extensions you need
-npm install coc-snippets coc-python coc-tsserver coc-html coc-css coc-json coc-yaml\
+npm install coc-snippets coc-python coc-tsserver coc-vimlsp coc-docker coc-html coc-css coc-json coc-yaml\
             --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod

@@ -4,6 +4,9 @@ let g:mapleader = "\<Space>"
 "set python3 provider
 let g:python3_host_prog="~/.local/anyenv/envs/pyenv/versions/neovim/bin/python"
 
+"workSpace config for python files
+au FileType python let b:coc_root_patterns = ['.git', '.env', 'venv', '.venv', 'setup.cfg', 'setup.py', 'pyrightconfig.json', 'env']
+
 colorscheme onedark
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
